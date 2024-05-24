@@ -15,7 +15,7 @@ const Home = () => {
         data-aos-duration="2000"
         data-aos-anchor-placement="top-center"
            
-        className="relative container mx-auto flex flex-col md:flex-col  xl:flex-row items-center justify-center  "
+        className="relative xl:h-[78.2vh] container mx-auto flex flex-col md:flex-col  xl:flex-row items-center justify-center  "
       >
         <div className="p-7 md:w-1/2 text-center md:text-left">
           <h2 className="text-xl text-black font-bold lg:text-3xl mb-4">
@@ -64,7 +64,7 @@ const Home = () => {
         <div
           data-aos="flip-left"
           data-aos-duration="1000"
-          className="py-24 px-11 md:p-7  md:w-1/2 "
+          className="py-32   px-11 md:p-7  md:w-1/2 "
         >
           <img
          

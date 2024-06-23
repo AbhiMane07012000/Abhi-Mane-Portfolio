@@ -18,6 +18,7 @@ const Header = () => {
   };
 
   return (
+    <header>
     <nav
       data-aos="fade-down"
       data-aos-duration="2000"
@@ -160,6 +161,7 @@ const Header = () => {
         </div>
       )}
     </nav>
+    </header>
   );
 };
 

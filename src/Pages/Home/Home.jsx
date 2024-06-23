@@ -10,15 +10,15 @@ AOS.init();
 const Home = () => {
   return (
     <>
-      <div
+      <section
         data-aos="fade-right"
         data-aos-duration="2000"
         data-aos-anchor-placement="top-center"
-           
+        id="heroSection"    
         className="relative xl:h-[78.2vh] container mx-auto flex flex-col md:flex-col  xl:flex-row items-center justify-center  "
       >
         <div className="p-7 md:w-1/2 text-center md:text-left">
-          <h2 className="text-xl text-black font-bold lg:text-3xl mb-4">
+          <h1 className="text-xl text-black font-bold lg:text-3xl mb-4">
             Hi there,
             <br />
             <TypeAnimation
@@ -36,7 +36,7 @@ const Home = () => {
               speed={20}
               repeat={Infinity}
             />
-          </h2>
+          </h1>
           <div className="container flex flex-row">
             <div className=" flex flex-col py-5 pr-2 md:pr-5">
               <a href="./AbhijeetManeResume.pdf" target="_blank" download>
@@ -68,12 +68,17 @@ const Home = () => {
         >
           <img
          
-            className="w-full h-1/2 shadow-lg shadow-white  md:h-full md:max-w-md md:row mx-auto md:m-0 rounded-full"
+            className="shadow-lg shadow-white  md:h-full md:max-w-md md:row mx-auto md:m-0 rounded-full"
+            style={{width:"100%",height:"50%"}}
             src= "./hero.png"
             alt="hero image"
+            title="heroimg"
+            width="100%"
+            height="50%"
+            loading="lazy"
           />
         </div>
-      </div>
+      </section>
     </>
   );
 };
